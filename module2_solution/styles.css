@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Quicksand, sans-serif; 
+}
+
+body {
+  background-color: rgba(158, 129, 238, 0.82);
+}
+
+footer {
+  margin: 10px;
+  color: white;
+  color: rgba(158, 129, 238, 0);
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 2.75em;
+
+}
+
+h2 {
+  position: absolute;
+  font-size: 2.25em;
+  padding: 0px 5px 0px 5px;
+  border: groove 1px;
+  border-color: rgba(0, 0, 0, 0.89);
+  top: -31px;
+  right: -3px;
+  background-color: rgba(84, 104, 232, 0.65);
+  color: white;
+}
+
+section {
+  position: relative;
+  border: groove 1px;
+  border-color: rgba(0, 0, 0, 0.89);
+  margin: 3px;
+  width: auto;
+  height: auto;
+  color: black;
+  background-color: rgba(84, 232, 138, 0.65);
+  overflow: hidden;
+}
+
+p {
+  padding: 33px 20px 0px 20px;
+  text-align: justify;
+}
+
+.container {
+  padding: 3px;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;  
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 136px) {
+  section {
+    overflow: auto;
+  }
+}
