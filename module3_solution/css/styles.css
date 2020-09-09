@@ -1,0 +1,30 @@
+#navigationBar {
+	background-color: pink;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: rgba(0,0,0,.35);
+	text-decoration: none;
+}
+
+h1 {
+	margin-top:20px; 
+}
+
+section {
+	margin: 20px auto 10px;
+	background-color: black;
+	color: white;
+	text-align: justify;
+	padding: 0 20px 40px 20px;
+}
+
+section #containerTitle {
+	margin: 30px auto 30px;
+}
+
+@media (max-width: 568px) {
+	.container {
+	width: 90%;
+}
+}
